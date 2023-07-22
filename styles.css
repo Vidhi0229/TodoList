@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+.contain{
+    display: flex;
+}
+
+.box1{
+    width: 22vw;
+    height: 7vh;
+    background-color: rgb(255, 255, 255);
+}
+.box{
+    width: 55vw;
+    height: 80vh;
+    background-color: rgb(133, 133, 226);
+}
+
+.box2{
+    display: block;
+    width: 95vw;
+    height: 8vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Kablammo', cursive;
+    font-size: 6vh;
+}
+
+.contain2{
+    display: block;
+    width: 22vw;
+    height: 5vh;
+}
+
+.box3{
+    width: 7vw;
+    height: 7vh;
+    background-color: rgb(133, 133, 226);
+}
+
+.box4{
+    width: 40vw;
+    height: 63vh;
+    background-color: rgb(255, 255, 255);  
+    border-radius: 5%;
+}
+.box5{
+    display: block;
+    color: rgb(133, 133, 226);
+    width: 22vw;
+    height: 8vh;
+}
+
+.Add_task{
+    width: 20vw;
+    height: 4vh;
+    margin: 2vw;
+    font-family: 'VT323', monospace;
+    font-size: x-large;
+}
+
+.box6{
+    display: block;
+    color: white;
+    width: 22vw;
+    height: 5vh;
+}
+.button{
+    width: 5vw;
+    height: 5vh;
+    outline: none;
+    border: none;
+    border-radius: 2vh;
+    font-size: 2vh;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    padding: 0vh;
+    background-color: rgb(163, 165, 165);
+
+}
