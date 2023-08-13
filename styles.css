@@ -77,3 +77,12 @@
     background-color: rgb(163, 165, 165);
 
 }
+
+li {
+    color: blueviolet;
+    list-style-type: none;
+    border: 1px;
+    border-color: gray;
+    max-width: 100px;
+    background-color: rgb(235, 221, 221);
+}
