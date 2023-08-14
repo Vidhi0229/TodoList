@@ -6,6 +6,7 @@ b.addEventListener('click', (e) => {
     e.preventDefault();
     const li = document.createElement("li")
     li.textContent = i.value;
+    i.value = null;
     ul.prepend(li);    
 })
 
