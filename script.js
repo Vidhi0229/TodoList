@@ -1,8 +1,18 @@
 let ul = document.querySelector("ul");
-let i = document.querySelector(".Add_task");
+let i = document.querySelector("#task");
 let b = document.querySelector("button");
-
 const pattern = /^[a-zA-Z]{3,}$/;
+
+i.addEventListener('keyup', (e) => {
+    if(pattern.test(e.target.value)){
+        i.setAttribute('class', 'success');
+    }
+    else{
+        i.setAttribute('class', 'error');
+    }
+})
+
+
 
 b.addEventListener('click', (e) => {
     e.preventDefault();
@@ -24,6 +34,3 @@ ul.addEventListener('click', e => {
     }
 })
 
-// const Vidhi_name = 'Vidhi';
-// const pattern = /[a-z]{6,}/;
-// console.log(pattern.test(Vidhi_name));
