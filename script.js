@@ -1,9 +1,8 @@
 let ul = document.querySelector("ul");
 let i = document.querySelector(".Add_task");
 let b = document.querySelector("button");
-const Vidhi_name = 'Vidhi';
-const pattern = /^[a-z]{3,}$/;
-console.log(pattern.test(Vidhi_name));
+
+const pattern = /^[a-zA-Z]{3,}$/;
 
 b.addEventListener('click', (e) => {
     e.preventDefault();
