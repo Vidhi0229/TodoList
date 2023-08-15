@@ -20,6 +20,7 @@ b.addEventListener('click', (e) => {
     if(pattern.test(i.value)){
         li.textContent = i.value;
         i.value = null;
+        i.removeAttribute('class', 'success');
         ul.prepend(li);  
     }
     else{
