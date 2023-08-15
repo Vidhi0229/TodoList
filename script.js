@@ -21,6 +21,7 @@ b.addEventListener('click', (e) => {
         li.textContent = i.value;
         i.value = null;
         i.removeAttribute('class', 'success');
+        i.removeAttribute('class', 'error');
         ul.prepend(li);  
     }
     else{
