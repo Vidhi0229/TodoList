@@ -1,7 +1,6 @@
 let form = document.querySelector(".add");
 const list = document.querySelector(".todos");
 
-const del = document.querySelector(".delete");
 
 const generateTemplate = todo => {
     let html = `
@@ -19,6 +18,12 @@ form.addEventListener("submit", e => {
     if(todo.length){
         generateTemplate(todo);
         form.reset();
+    }
+})
+
+list.addEventListener("click", e => {
+    if(e.target.classList.contains("delete")){
+        e.target.parentElement.remove();
     }
 })
 
