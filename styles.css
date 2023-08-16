@@ -1,97 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-.contain{
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+body{
+    background: #91b5eb;
 }
 
-.box1{
-    width: 22vw;
-    height: 7vh;
-    background-color: rgb(255, 255, 255);
+.container{
+    max-width: 400px;
 }
+
 .box{
-    width: 55vw;
-    height: 80vh;
-    background-color: rgb(133, 133, 226);
+    font-family: 'Knewave', cursive;
 }
 
 .box2{
-    display: block;
-    width: 95vw;
-    height: 8vh;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Kablammo', cursive;
-    font-size: 6vh;
-}
-
-.contain2{
-    display: block;
-    width: 22vw;
-    height: 5vh;
-}
-
-.box3{
-    width: 7vw;
-    height: 7vh;
-    background-color: rgb(133, 133, 226);
-}
-
-.box4{
-    width: 40vw;
-    height: 63vh;
-    background-color: rgb(255, 255, 255);  
-    border-radius: 5%;
-}
-.box5{
-    display: block;
-    color: rgb(133, 133, 226);
-    width: 22vw;
-    height: 8vh;
+    font-family: 'Rubik Moonrocks', cursive;
 }
 
 input{
-    width: 20vw;
-    height: 4vh;
-    margin: 1vw;
+    max-width: 400px;
     font-family: 'VT323', monospace;
     font-size: x-large;  
 }
 
-
-.box6{
-    display: block;
-    color: white;
-    width: 22vw;
-    height: 5vh;
-}
-.button{
-    width: 5vw;
-    height: 5vh;
-    outline: none;
+.todos li{ 
+    background-color: rgb(27, 3, 70);
+    color: #91b5eb;
     border: none;
-    border-radius: 2vh;
-    font-size: 2vh;
-    font-family: 'VT323', monospace;
-    text-align: center;
-    padding: 0vh;
-    background-color: rgb(163, 165, 165);
-
 }
 
-li {
-    color: blueviolet;
-    list-style-type: none;
-    border: 1px;
-    border-color: rgb(134, 132, 132);
-    max-width: 100px;
-    background-color: rgb(235, 221, 221);
-}
-
-.error{
-    border: 4px solid crimson;
-}
-
-.success{
-    border: 4px solid limegreen;
+.delete{
+    cursor: pointer;
 }
